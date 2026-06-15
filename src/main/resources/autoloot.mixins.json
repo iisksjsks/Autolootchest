@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.autoloot.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GenericContainerScreenHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
