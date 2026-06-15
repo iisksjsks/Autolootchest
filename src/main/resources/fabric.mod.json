@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "autoloot",
+  "version": "${version}",
+  "name": "Auto Loot",
+  "description": "Automatically loot chests when you open them.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.autoloot.AutoLootMod"]
+  },
+  "mixins": ["autoloot.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.9",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+
